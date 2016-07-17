@@ -1,0 +1,26 @@
+{
+  "compileOnSave": true,
+  "buildOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    //    "noEmitOnError": true,
+    "jsx": "react",
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "noResolve": true,
+    "moduleResolution": "classic"
+
+    //    "noEmitHelpers": true
+  },
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "examples"
+  ]
+}
